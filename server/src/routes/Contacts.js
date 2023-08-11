@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const contacts = require("../model/contact");
+//const contacts = require("../model/contact");
 const user = require("../model/users");
 router.use(express.json());
 const { validateToken } = require("../Middlewares/AuthMiddleware");
